@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #252525;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  align-items: center;
+  background: #252525;
+}
+
+header img {
+  width: 140px;
+  height: 65px;
+  margin: 0 2em 0 0;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  max-height: 85vh;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section div:nth-child(1) {
+  -webkit-animation: animate 0.6s;
+          animation: animate 0.6s;
+}
+
+section div:nth-child(2) {
+  -webkit-animation: animate 0.8s;
+          animation: animate 0.8s;
+}
+
+section div:nth-child(3) {
+  -webkit-animation: animate 1s;
+          animation: animate 1s;
+}
+
+section div:nth-child(4) {
+  -webkit-animation: animate 1.2s;
+          animation: animate 1.2s;
+}
+
+section div:nth-child(5) {
+  -webkit-animation: animate 1.4s;
+          animation: animate 1.4s;
+}
+
+section div {
+  width: 20%;
+  height: 85vh;
+  max-height: 85vh;
+  background: #9e2a2a36;
+}
+
+section a {
+  cursor: pointer;
+  z-index: 2;
+  width: 20%;
+  height: 85vh;
+  max-height: 85vh;
+  background: #000000;
+}
+
+section .inv {
+  display: none;
+}
+
+section input {
+  position: fixed;
+  top: 15vh;
+  height: 85vh;
+  width: 20.03%;
+  cursor: pointer;
+  opacity: 0;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+section .Peter {
+  background: rgba(191, 204, 203, 0.295);
+}
+
+section .May {
+  background: #011e6e60;
+}
+
+section .Miles {
+  background: rgba(122, 17, 26, 0.295);
+}
+
+section .Gwen {
+  background: rgba(121, 77, 141, 0.438);
+}
+
+section .SpiderF {
+  background: rgba(27, 27, 36, 0.295);
+}
+
+section input:hover {
+  opacity: 1;
+  -webkit-transition: 0.9s ease;
+  transition: 0.9s ease;
+}
+
+@-webkit-keyframes animate {
+  from {
+    -webkit-transform: translateY(70em);
+            transform: translateY(70em);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes animate {
+  from {
+    -webkit-transform: translateY(70em);
+            transform: translateY(70em);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+/*
+.sliderssec {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 15vh;
+    left: 0;
+
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+
+
+    a{
+        opacity: 0;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        text-align: initial;
+        cursor: pointer;
+        div{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            p{
+                transform: rotate(-90deg);
+                font-family: 'Bungee Inline', cursive;
+                font-size: 17px;
+                text-transform: uppercase;
+                float: left;
+                position: relative;
+                top: 20em;
+                
+
+            }
+        }
+    }
+
+    a:hover {
+        opacity: 1;
+        animation:animate 0.6s ease;
+    }
+
+    a:nth-child(1){
+        background: rgba(0, 0, 255, 0.274);
+    }
+    a:nth-child(2){
+        background: rgba(255, 0, 0, 0.26);
+    }
+    a:nth-child(3){
+        background: rgba(255, 255, 0, 0.253);
+    }
+    a:nth-child(4){
+        background: rgba(0, 128, 0, 0.233);
+    }
+    a:nth-child(5){
+        background: rgba(128, 128, 128, 0.267);
+    }
+}
+
+@keyframes animate {
+    from{
+        transform: translateY(+70em);
+    }
+    to{
+        transform: translateY(0px);
+    }
+} */
+/*# sourceMappingURL=main.css.map */
